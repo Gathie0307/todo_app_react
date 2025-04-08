@@ -11,12 +11,8 @@ Installs all the project dependencies.
 Starts the development server.
 Open http://localhost:5173/ to view it in your browser.
 
-The page will automatically reload as you make changes.
-
-You’ll also see any lint errors in the console.
-
 🎨 Icons Support
-To use icons in your project, install React Icons:
+To use icons in this project, please install React Icons before running the app:
 
 npm install react-icons --save
 
