@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 import { FaTrashAlt } from "react-icons/fa";
 import { FaRegEdit } from "react-icons/fa";
-
 
 const LineItem = ({ item, handleCheck, handleDelete, handleEdit }) => {
   return (
@@ -23,14 +22,14 @@ const LineItem = ({ item, handleCheck, handleDelete, handleEdit }) => {
         role="button"
         tabIndex="0"
       />
-       <FaRegEdit
+      <FaRegEdit
         aria-label={`EDIT ${item.item}`}
         onClick={() => handleEdit(item)}
         role="button"
         tabIndex="0"
       />
-  </li>
-  )
-}
+    </li>
+  );
+};
 
-export default LineItem
+export default LineItem;

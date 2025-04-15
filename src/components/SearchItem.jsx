@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const SearchItem = ({search, setSearch}) => {
+const SearchItem = ({ search, setSearch }) => {
   return (
-    <form className='searchForm' onSubmit={(e) => e.preventDefault() }>
-      <label htmlFor='search'>Search</label>
+    <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
+      <label htmlFor="search">Search</label>
       <input
-        id='search'
-        type='text'
-        role='searchbox'
-        placeholder='Search Task'
+        id="search"
+        type="text"
+        role="searchbox"
+        placeholder="Search Task"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
     </form>
-  )
-}
+  );
+};
 
-export default SearchItem
+export default SearchItem;
